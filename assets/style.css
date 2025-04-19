@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(mars-plex-knH05eGDEwc-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto, Arial;
+    overflow: hidden;
+}
+
+.container {
+    z-index: 1000;
+    padding: 1rem;
+    max-width: 300px;
+    text-align: center;
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgb(34, 207, 210);
+}
+
+.time {
+    padding: 1rem 0;
+    font-size: 2rem;
+}
+
+h1,
+p {
+    color: #f8f8f8;
+}
+
+button {
+    padding: 0.4rem 1rem;
+    margin: 0 0.2rem;
+    border-radius: 18px;
+    border: 1px solid #f8f8f8;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f8f8f8;
+}
+
+#laps {
+    margin-top: 20px;
+    text-align: left;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lap-item {
+    padding: 5px;
+    border-bottom: 1px solid #fff;
+}
